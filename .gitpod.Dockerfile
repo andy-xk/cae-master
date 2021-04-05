@@ -8,5 +8,5 @@ FROM gitpod/workspace-full-vnc
 
 # copypasted to run VS Code with novnc
 RUN sudo apt-get update && \
-    sudo apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3 && \
+    sudo apt install libreoffice && \
     sudo rm -rf /var/lib/apt/lists/*
