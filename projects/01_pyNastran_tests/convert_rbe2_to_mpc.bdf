@@ -1,0 +1,15 @@
+$pyNastran: version=msc
+$pyNastran: punch=True
+$pyNastran: encoding=utf-8
+$pyNastran: nnodes=2
+$pyNastran: nelements=0
+$NODES
+GRID        1000              1.      2.      3.
+GRID        1001              1.      2.      3.
+$RIGID ELEMENTS
+RBE2           3    1000  123456    1001
+$SPCs
+$boundary condition 1
+SPC         8000    1000  123456      0.
+$MPCs
+MPC         1000    1000  123456      1.    1001  123456     -1.

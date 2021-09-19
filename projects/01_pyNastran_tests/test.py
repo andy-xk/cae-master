@@ -9,7 +9,7 @@ from pyNastran.bdf.bdf import BDF, read_bdf
 from pyNastran.utils import object_attributes, object_methods
 
 
-bdf_filename="models/source.bdf"
+bdf_filename="data/source.bdf"
 bulkdata_filename="modify_rbe2_to_rbe2mpc.bdf"
 
 bulkdata_file = open(bulkdata_filename, "w")
